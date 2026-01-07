@@ -1,4 +1,4 @@
-public class aula011 {
+public class Aula011 {
     public static void main(String[] args) {
         double preco = 34.50;
         double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;

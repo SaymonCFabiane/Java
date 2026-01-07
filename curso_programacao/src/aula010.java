@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class aula010 {
+public class Aula010 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.print("Digite o dia da semana: ");

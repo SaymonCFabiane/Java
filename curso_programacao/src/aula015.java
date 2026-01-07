@@ -2,7 +2,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class aula015 {
+public class Aula015 {
     public static void main(String[] args) {
         
         Locale.setDefault(Locale.US);

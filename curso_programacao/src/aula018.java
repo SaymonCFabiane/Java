@@ -1,4 +1,4 @@
-public class aula018 {
+public class Aula018 {
     public static void main(String[] args) {
         
         String original = "abcde FGHIJ ABC abc DEFG   ";
