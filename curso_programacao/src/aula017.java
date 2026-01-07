@@ -14,5 +14,6 @@ public class Aula017 {
         else {
             System.out.println("6th bit is Flase");
         }
+        sc.close();
     }
 }
