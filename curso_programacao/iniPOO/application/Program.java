@@ -1,5 +1,5 @@
-package aplication;
-
+package application;
+import entities.Triangle;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -9,24 +9,23 @@ public class Program {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        double xA, xB, xC, yA, yB, yC;
+        
+        Triangle x, y;
+        x = new Triangle();
+        y = new Triangle();
 
         System.out.println("Enter the measures of triangle x: ");
-        xA = sc.nextDouble();
-        xB = sc.nextDouble();
-        xC = sc.nextDouble();
+        x.a = sc.nextDouble();
+        x.b = sc.nextDouble();
+        x.c = sc.nextDouble();
 
         System.out.println("Enter the measures of triangle y: ");
-        yA = sc.nextDouble();
-        yB = sc.nextDouble();
-        yC = sc.nextDouble();
+        y.a = sc.nextDouble();
+        y.b = sc.nextDouble();
+        y.c = sc.nextDouble();
 
-
-        double p = (xA + xB + xC) / 2;
-        double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
-
-        p = (yA + yB + yC) / 2;
-        double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+        double areaX = x.area();
+        double areaY = y.area();
 
         System.out.printf("Triangle X area: %.4f%n", areaX);
         System.out.printf("Triangle y area: %.4f%n", areaY);
@@ -38,8 +37,6 @@ public class Program {
             System.out.println("Larguer area Y");
         }
 
-
         sc.close();
 }
-
 }
