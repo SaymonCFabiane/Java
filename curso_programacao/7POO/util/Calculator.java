@@ -2,13 +2,13 @@ package util;
 
 public class Calculator {
     
-    public static final double PI = 3.1459;
+    public final double PI = 3.1459;
 
-        public static double circunferencia(double raio){
+        public double circunferencia(double raio){
         return 2 * PI * raio;
     }
 
-    public static double volume(double raio){
+    public double volume(double raio){
         return 4 * PI * raio * raio * raio / 3;
     }
 
