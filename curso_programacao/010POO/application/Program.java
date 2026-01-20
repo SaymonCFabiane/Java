@@ -37,6 +37,7 @@ public class Program {
 
         System.out.println();
         System.out.println("Updated data: " + product);
+        System.out.println("PEROPREOR");
 
         sc.close();
     }
