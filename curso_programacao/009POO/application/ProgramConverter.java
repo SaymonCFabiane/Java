@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import util.CurrencyConverter;
 
-public class Program {
+public class ProgramConverter {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);

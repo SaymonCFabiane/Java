@@ -3,7 +3,7 @@ import entities.Employee;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramEmployee {
     
     public static void main(String[] args) {
         

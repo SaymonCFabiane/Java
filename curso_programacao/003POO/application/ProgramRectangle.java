@@ -4,7 +4,7 @@ import entities.Rectangle;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+public class ProgramRectangle {
     
     public static void main(String[] args) {
         
