@@ -1,6 +1,6 @@
 package application;
 
-import entities.Product;
+import entities.Product3;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class ProgramProduct {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product();
+        Product3 product = new Product3();
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
         product.name = sc.nextLine();
