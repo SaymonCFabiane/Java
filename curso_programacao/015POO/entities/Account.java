@@ -5,14 +5,14 @@ public class Account {
     private String holderName;
     private double balance;
 
-
     
-    public Account(int accountNumber, String holderName, double balance) {
+    public Account(int accountNumber, String holderName) {
         this.accountNumber = accountNumber;
         this.holderName = holderName;
+    }
+    public Account(double balance) {
         this.balance = balance;
     }
-    
     public int getAccountNumber() {
         return accountNumber;
     }
@@ -27,6 +27,12 @@ public class Account {
         this.holderName = holderName;
     }
 
-    
+    public void deposit(double  balance){
+        this.balance += balance;
+    }
+
+    public void sake(double balance){
+        this.balance = this.balance - balance - 5;
+    }
     
 }
