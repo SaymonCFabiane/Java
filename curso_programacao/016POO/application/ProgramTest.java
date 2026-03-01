@@ -6,6 +6,6 @@ public class ProgramTest {
 
         int p;
 
-        s
+        System.out.println(p);
     }
 }
