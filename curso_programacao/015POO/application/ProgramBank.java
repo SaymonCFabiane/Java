@@ -48,5 +48,7 @@ public class ProgramBank {
         System.out.println();
         System.out.println();
 
+        sc.close();
+
     }
 }

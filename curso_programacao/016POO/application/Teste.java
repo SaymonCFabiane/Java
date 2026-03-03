@@ -1,13 +1,15 @@
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Teste {
     public static void main(String[] args) {
-        
-        int x = 10;
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
 
-        if (x > 0){
-            int y = 20;
-        }
-        System.out.println(x);
+
+
+        sc.close();
     }
 }
